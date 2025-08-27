@@ -45,6 +45,8 @@ jobs:
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          # 这是文档部署到的分支名称
-          branch: gh-pages
-          folder: docs/.vuepress/dist
+          repository-name: urfread1010/urfread1010.github.io # 目标仓库
+          branch: main                                      # 部署到目标仓库的 main 分支
+          folder: docs/.vuepress/dist                       # 构建输出目录
+          clean: true                                       # 清理旧文件
+          token: ${{ secrets.GITHUB_TOKEN }}                # 使用内置 token
