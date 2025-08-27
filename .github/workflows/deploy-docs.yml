@@ -49,4 +49,4 @@ jobs:
           branch: main                                      # 部署到目标仓库的 main 分支
           folder: docs/.vuepress/dist                       # 构建输出目录
           clean: true                                       # 清理旧文件
-          token: ${{ secrets.GITHUB_TOKEN }}                # 使用内置 token
+          token: ${{ secrets.PERSONAL_TOKEN }}
