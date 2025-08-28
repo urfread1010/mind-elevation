@@ -6,7 +6,7 @@ import ExtraSideBar from './ExtraSideBar.vue';
 <template>
   <ParentLayout>
     <template #page-bottom>
-      <div class="my-footer">This is my custom page footer</div>
+      <div class="my-footer"></div>
     </template>
     <template #sidebar-top>
       <ExtraSideBar/>

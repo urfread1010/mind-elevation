@@ -7,7 +7,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
 
   title: 'Mind Elevation',
-  description: 'My first VuePress Site',
+  description: '认知拔高小助手',
 
   base: '/',
 

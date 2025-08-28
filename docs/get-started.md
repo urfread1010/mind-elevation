@@ -1,46 +1,15 @@
-# Get Started
+# 快速上手
 
-This is a normal page, which contains VuePress basics.
+这可能是你来这个网站，看到的第一篇文章。我想要用尽可能快的方式，让你从这个网站获益，让你感觉到这个网站的价值。
 
-## Pages
+如果你尝试了一下文中的案例，但是没觉得自己有提升或者觉得它没有意义，那就拉黑这个网站就好了。你就这么想吧，一个站长穷尽洪荒之力写的开山之作都对你没价值，那他后边写的岂不是更不值当看。
 
-You can add markdown files in your vuepress directory, every markdown file will be converted to a page in your site.
+但是，现在我自己能力还不太够，而上边列的任务又是我必须完成的，所以先简单写一篇《快速上手》——占个位，后边有更好的案例了，我再进行替换。
 
-See [routing][] for more details.
+---
 
-## Content
+暂时先把快速上手定在吃上边了。因为最近我就简单吃了些核桃，就明显感觉精神状态好多了，这个操作非常简单，效果又非常明显。
 
-Every markdown file [will be rendered to HTML, then converted to a Vue SFC][content].
+我先在公众号上把这篇文章整理出来，等过段时间了，再同步到网站上。
 
-VuePress support basic markdown syntax and [some extensions][synatex-extensions], you can also [use Vue features][vue-feature] in it.
-
-## Configuration
-
-VuePress use a `.vuepress/config.js`(or .ts) file as [site configuration][config], you can use it to config your site.
-
-For [client side configuration][client-config], you can create `.vuepress/client.js`(or .ts).
-
-Meanwhile, you can also add configuration per page with [frontmatter][].
-
-## Layouts and customization
-
-Here are common configuration controlling layout of `@vuepress/theme-default`:
-
-- [navbar][]
-- [sidebar][]
-
-Check [default theme docs][default-theme] for full reference.
-
-You can [add extra style][style] with `.vuepress/styles/index.scss` file.
-
-[routing]: https://vuejs.press/guide/page.html#routing
-[content]: https://vuejs.press/guide/page.html#content
-[synatex-extensions]: https://vuejs.press/guide/markdown.html#syntax-extensions
-[vue-feature]: https://vuejs.press/guide/markdown.html#using-vue-in-markdown
-[config]: https://vuejs.press/guide/configuration.html#client-config-file
-[client-config]: https://vuejs.press/guide/configuration.html#client-config-file
-[frontmatter]: https://vuejs.press/guide/page.html#frontmatter
-[navbar]: https://vuejs.press/reference/default-theme/config.html#navbar
-[sidebar]: https://vuejs.press/reference/default-theme/config.html#sidebar
-[default-theme]: https://vuejs.press/reference/default-theme/
-[style]: https://vuejs.press/reference/default-theme/styles.html#style-file
+加油ヾ(◍°∇°◍)ﾉﾞ
