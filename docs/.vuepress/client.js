@@ -6,6 +6,9 @@ import Timeline from './layouts/Timeline.vue'
 import Layout from './layouts/Layout.vue'
 import ExtraSideBar from './layouts/ExtraSideBar.vue'
 
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+
 export default defineClientConfig({
   // we provide some blog layouts
   layouts: {
@@ -15,4 +18,7 @@ export default defineClientConfig({
     Timeline,
     Layout,
   },
+  enhance({app}){
+    app.use(ElementPlus)
+  }
 })

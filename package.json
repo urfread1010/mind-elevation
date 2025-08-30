@@ -11,11 +11,16 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.20",
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/plugin-blog": "2.0.0-rc.86",
+    "@vuepress/plugin-register-components": "2.0.0-rc.112",
     "@vuepress/theme-default": "2.0.0-rc.88",
+    "@vuepress/utils": "2.0.0-rc.24",
     "sass-embedded": "^1.86.0",
     "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.20",
-    "@vuepress/plugin-blog": "2.0.0-rc.86"
+    "vuepress": "2.0.0-rc.24"
+  },
+  "dependencies": {
+    "element-plus": "^2.11.1"
   }
 }

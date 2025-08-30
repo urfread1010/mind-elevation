@@ -2,6 +2,8 @@ import { blogPlugin } from '@vuepress/plugin-blog'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { path } from '@vuepress/utils'  
 
 export default defineUserConfig({
   lang: 'zh-CN',
@@ -136,6 +138,11 @@ export default defineUserConfig({
         },
       ],
       hotReload: true,
+
+    }),
+    registerComponentsPlugin({
+      // 指定你的组件目录
+      componentsDir: path.resolve(__dirname, './components'),
     }),
   ],
 

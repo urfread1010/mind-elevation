@@ -25,4 +25,6 @@ features:
 footer: 
 ---
 
-[更新日志](/update-logs.md)
+👉 [更新日志](./update-logs.md)
+
+👉 [进入广场](./playground/README.md)
