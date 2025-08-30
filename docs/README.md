@@ -1,6 +1,7 @@
 ---
 home: true
-title: Home
+title: 首页
+heroImage: /images/avatar_circle.png
 actions:
   - text: 快速上手
     link: /get-started.html

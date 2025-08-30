@@ -1,0 +1,7 @@
+/* docs/.vuepress/styles/index.css */
+.hero__image {
+  border-radius: 50% !important;  /* 强制圆形 */
+  object-fit: cover !important;
+  width: 200px;       /* 根据需要调整 */
+  height: 200px;
+}
